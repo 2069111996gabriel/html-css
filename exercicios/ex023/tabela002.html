@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            background-color: aquamarine;
+        }
+        td.num{
+            text-align: right;
+        }
+        tbody >tr:nth-child(2n){
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <H1>Uso de tabelas grandes</H1>
+    <!-- ANATOMIA PARA TABELAS 
+        caption
+    TABLE            
+        THEAD          SCOP= COL definiçao para coluda
+            TR,TD, TH    tr = linhA
+        TBODY            TD = DADOS
+            TR, TD, TH   TH = TITULO
+        TFOOT
+            TR, TD,TH
+    -->
+    <table>
+        <caption>
+            Populaçao das unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col">populaçao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num"> 459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num"> 459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">459 19 791</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes </th>
+                <th scope="num">00000</th>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vero dignissimos nihil, quaerat modi inventore blanditiis? Dicta ullam dignissimos illo, quam mollitia error laborum eveniet, veritatis, in similique sint. Doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore qui pariatur laudantium fugit hic impedit et totam deleniti doloribus, mollitia consequatur amet velit ipsum. Inventore iste cumque quaerat voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione dolorum, consequuntur explicabo at culpa adipisci accusamus dolorem magnam ex quas nesciunt tempore maxime porro, modi officia quos, doloribus autem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos fuga explicabo obcaecati enim saepe. Quam quae perspiciatis labore quidem sed voluptatibus illo officia voluptate, itaque minima et ipsam eius hic?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vero dignissimos nihil, quaerat modi inventore blanditiis? Dicta ullam dignissimos illo, quam mollitia error laborum eveniet, veritatis, in similique sint. Doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore qui pariatur laudantium fugit hic impedit et totam deleniti doloribus, mollitia consequatur amet velit ipsum. Inventore iste cumque quaerat voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione dolorum, consequuntur explicabo at culpa adipisci accusamus dolorem magnam ex quas nesciunt tempore maxime porro, modi officia quos, doloribus autem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos fuga explicabo obcaecati enim saepe. Quam quae perspiciatis labore quidem sed voluptatibus illo officia voluptate, itaque minima et ipsam eius hic?
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vero dignissimos nihil, quaerat modi inventore blanditiis? Dicta ullam dignissimos illo, quam mollitia error laborum eveniet, veritatis, in similique sint. Doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore qui pariatur laudantium fugit hic impedit et totam deleniti doloribus, mollitia consequatur amet velit ipsum. Inventore iste cumque quaerat voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione dolorum, consequuntur explicabo at culpa adipisci accusamus dolorem magnam ex quas nesciunt tempore maxime porro, modi officia quos, doloribus autem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos fuga explicabo obcaecati enim saepe. Quam quae perspiciatis labore quidem sed voluptatibus illo officia voluptate, itaque minima et ipsam eius hic?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vero dignissimos nihil, quaerat modi inventore blanditiis? Dicta ullam dignissimos illo, quam mollitia error laborum eveniet, veritatis, in similique sint. Doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore qui pariatur laudantium fugit hic impedit et totam deleniti doloribus, mollitia consequatur amet velit ipsum. Inventore iste cumque quaerat voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione dolorum, consequuntur explicabo at culpa adipisci accusamus dolorem magnam ex quas nesciunt tempore maxime porro, modi officia quos, doloribus autem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos fuga explicabo obcaecati enim saepe. Quam quae perspiciatis labore quidem sed voluptatibus illo officia voluptate, itaque minima et ipsam eius hic?</p>
+    </p>
+
+</body>
+</html>
